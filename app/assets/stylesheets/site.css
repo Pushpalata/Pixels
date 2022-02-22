@@ -24,7 +24,9 @@ a {
   font-weight: 700;
   font-size: 20px;
 }
-
+.site {
+  min-height: 600px;
+}
 .nav__item {
   display: inline-block;
   margin: 0px 30px;
@@ -107,4 +109,11 @@ margin:1%;
 	color: #333;
 	margin: 0;
   min-height:100px;
+}
+section.profile{
+  margin: 10px 0;
+}
+section.profile .header{
+  max-width: 700px;
+  margin: 0 auto;
 }
