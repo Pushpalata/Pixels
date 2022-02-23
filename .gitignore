@@ -75,3 +75,9 @@ build-iPhoneSimulator/
 !/tmp/storage/.keep
 
 /public/assets
+docker-compose.yml
+.DS_Store
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
