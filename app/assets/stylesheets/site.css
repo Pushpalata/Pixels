@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  top: 0;
+  color: #fff;
+}
+.nav {
+  background: #232a34;
+}
+.nav__title {
+  margin: 0px 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.site {
+  min-height: 600px;
+}
+.nav__item {
+  display: inline-block;
+  margin: 0px 30px;
+}
+.nav__item a{
+  color: #fff;
+}
+footer {
+  text-align: center;
+}
+.search {
+  width: 30%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #232a34;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #232a34;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #232a34;
+  background: #232a34;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+  text-align: center;
+  padding: 40px 10px;
+}
+#wrapper {
+	width: 90%;
+	max-width: 1100px;
+	min-width: 800px;
+	margin: 50px auto;
+}
+
+#columns {
+margin:.5%;
+}
+
+.pin {
+width:20%;
+vertical-align:top;
+display:inline-block;
+background-color:#fff;
+padding:1%;
+margin:1%;
+}
+
+.pin img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.pin p {
+	font: 12px/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+  min-height:100px;
+}
+section.profile{
+  margin: 10px 0;
+}
+section.profile .header{
+  max-width: 700px;
+  margin: 0 auto;
+}

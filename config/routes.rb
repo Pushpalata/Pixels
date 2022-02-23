@@ -6,4 +6,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root 'home#index'
+
+  resource :user, only: [] do
+    get 'profile', action: :show_me
+  end
 end

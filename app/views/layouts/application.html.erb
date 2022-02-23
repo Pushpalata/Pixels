@@ -11,7 +11,12 @@
   </head>
 
   <body>
-    <%= render partial: 'layouts/menu' %>
-    <%= yield %>
+    <div class="site">
+      <%= render partial: 'layouts/menu' %>
+      <%= yield %>
+    </div>
+    <footer>
+      <p>No Copyright</p>
+    </footer>
   </body>
 </html>
